@@ -11,11 +11,6 @@ img {
     height: auto;
     max-width: 100%;
 }
-.container{
-  width: 960px;
-  margin: 0 auto;
-}
-
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden{
@@ -30,7 +25,12 @@ input[type="radio"].visually-hidden{
     clip: rect(0 0 0 0);
     overflow:hidden;
 }
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
 body {
+  margin: 0;
     font-family: "Playfair Display", "Times New Roman", serif;
     font-weight: 400;
     color: #626262;
@@ -38,13 +38,9 @@ body {
     line-height: 24px;   
 }
 .page header{
+  width: 900px;
   margin-bottom: 100px;
 }
-.wrapper{
-	width: 900px;
-	margin: 0 auto;
-}
-
 .site-navigation {
   margin: 0;
 	padding: 0;
@@ -70,6 +66,7 @@ color: #03a9f4;
 }
 
 .content-list{
+  padding: 0;
 	list-style: none; 
 	font-size: 0;
   }
@@ -90,6 +87,10 @@ color: #03a9f4;
   margin-bottom: 66px;
   width: 420px;
   }
+  .section menu{
+    margin: 0 ; 
+        font-size: 14px; 
+  }
   
   .article-title{
 	margin: 0 ; 
@@ -102,15 +103,19 @@ color: #03a9f4;
 		font-size: 14px; 
   }
   .button-loud-more{
-    display: inline-block;
-    margin-left: 420px;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 600px;
+        border: 1px solid #626262;
     padding: 30px 20px;
-      font-family: "Playfair Display";
+    font-family: "Playfair Display";
     color: #626262;
     font-size: 20px;
     line-height: 24px;  
     text-align: center;
     background: white;
-    border: solid 1px;
-    border-box: #626262;
-  }
+     }
+  
+.button-loud-more a:hover{
+  color: #dbdad5;
+}
