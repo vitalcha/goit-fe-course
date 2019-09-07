@@ -1,0 +1,114 @@
+html{
+	box-sizing:border-box;
+}
+*,
+*::before, 
+*::after{
+	box-sizing: inherit;
+}
+img {
+	display: block;
+	
+	height: auto;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border:0;
+    padding: 0;
+    white-space:nowrap;
+    clip-path:inset(100%);
+    clip: rect(0 0 0 0);
+    overflow:hidden;
+}
+/*body прописываем основные стили текста*/
+body {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 400;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;   
+}
+.page header{
+  margin-bottom: 100px;
+}
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.site-navigation {
+  margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 0px; /*обнуляем шрифт, чтобы убрать отступы у инлайн-блочных лишек */
+}
+
+.site-navigation-item{
+  display: inline-block; /*ставим лишки в ряд, делая их инлайн-блочными*/
+}
+
+.site-navigation a{
+  display: block; /*ссылки обязательно делаем блочными*/
+	color:#626262;
+	padding: 28px 28px;
+	text-decoration: none;
+	text-transform: uppercase;
+  font-size: 14px;
+ }
+/*в домашке ховер не такой, сделайте так, как на макете*/
+.site-navigation a:hover,
+.site-navigation a:focus{
+color: #03a9f4;
+}
+
+.content-list{
+	list-style: none; /*убираем маркеры*/
+	font-size: 0; /*размер шрифта 0, чтобы убрать отступы, у инлайн-блочных лишек*/
+  }
+  
+  .content-item{
+	display: inline-block;
+	width: 420px;
+  }
+  
+  .content-item:not(:nth-child(2n)){
+	margin-right: 60px;
+  }
+  .content-item:nth-child(-n + 2){
+	margin-bottom: 60px;
+  }
+  
+  .section-image{
+  margin-bottom: 66px;
+  width: 420px;
+  }
+  
+  .article-title{
+	margin: 0 ; /*убираем маржины, которые есть по умолчанию*/
+	margin-bottom: 38px; /*указываем необходимый отступ*/
+	font-size: 30px; /*указываем нужный размер шрифта*/
+  }
+  
+  .article-content{
+	margin: 0; /*убираем маржины, но не пишем маржин-боттом, так как этот
+	параграф крайний у своего родителя*/
+	font-size: 14px; /*указываем нужный размер шрифта*/
+  }
+  .button-loud-more{
+    display: inline-block;
+    margin-left: 445px;
+    padding: 30px 20px;
+      font-family: "Playfair Display";
+    color: #626262;
+    font-size: 20px;
+    line-height: 24px;  
+    text-align: center;
+    background: white;
+    border: solid 1px;
+    border-box: #626262;
+  }
