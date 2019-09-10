@@ -22,7 +22,7 @@ img{
 }
 body{
   margin: 0 auto;
-  font-family: "Roboto","Open Sans", serif;
+  font-family: "Roboto","Open Sans",serif;
   font-weight: 400;
   color: #626262;
   font-size: 14px;
@@ -52,6 +52,7 @@ float: right;
 }
 
 .site-navigation a{
+  font-weight: 700;
   display: block; 
   color:#0f0101;
 	padding: 28px 28px;
@@ -123,6 +124,7 @@ margin-top: 90px;
   height: 40px;
   background-color: #8c8c8c;
   text-align: center;
+  text-transform: uppercase;
   }
   .product-description{
     margin: 0 auto;
@@ -131,8 +133,11 @@ margin-top: 90px;
   height: 40px;
     color:#ffffff;
   font-size: 18px;
-  line-height:32px;
+  line-height: 40px;
+  padding-left: 14px;
   background-color: #323232;
+  text-transform: uppercase;
+  
   }
 
   .product-list:hover .product-description {
@@ -178,13 +183,11 @@ margin-top: 90px;
   object-fit: cover;
 }
 .Latest-news-title::after{
-  display: block;
   background-color: #4ec6ab;
   content:"";
   width: 136px;
   height: 3px;
-  margin: left;
-}
+ }
 .Latest-news-content{
   margin: 0 auto;
   margin-top: 30px;
