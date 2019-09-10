@@ -15,7 +15,8 @@ img{
 }
 .page-header{
   width: 1110px;
-}
+  padding: 28px 28px;
+  }
 .container{
   width: 1110px;
   margin: 0 auto;
@@ -33,16 +34,13 @@ body{
   content: "";
   clear: both;
 }
-.site-navigation-item li{
-float: right;
-}
-
 .site-navigation{
   margin: 0;
 	padding: 0;
 	text-align: center;
   float:right;
-  
+  font-size: 14px;
+  line-height: 11px; 
 }
 
 .site-navigation-item{
@@ -54,14 +52,19 @@ float: right;
 .site-navigation a{
   font-weight: 700;
   display: block; 
-  color:#0f0101;
-	padding: 28px 28px;
+ color:#0f0101;
 	text-decoration: none;
 	text-transform: uppercase;
   font-size: 14px;
   line-height: 11px; 
+  padding-right: 40px;
  }
-
+ 
+ .site-navigation-item li{
+  float: right;
+  font-size: 14px;
+  line-height: 11px; 
+   }
 .site-navigation a:hover,
 .site-navigation a:focus{
 color: #1abc9c;
@@ -71,8 +74,7 @@ color: #1abc9c;
    color:#555252;
   font-size: 30px;
   line-height: 32px; 
-  padding: 15px 15px;
-	text-decoration: none;
+ 	text-decoration: none;
   text-transform: uppercase;
  line-height: 25px;
  
@@ -80,11 +82,13 @@ color: #1abc9c;
 .logo::first-letter{
  color: #1abc9c;
 }
-
+.products{
+  margin: 0;
+  padding-top: 100px;
+}
 .title-products{
   margin: 0;
-margin-top: 90px;
-  padding: 15px;
+  margin-bottom: 100px;
   text-align: center;
   color:#515151;
   font-size: 48px;
@@ -144,11 +148,13 @@ margin-top: 90px;
    .product-list:hover .product-price {
   background-color: #7fd9c7;
    }
+.news{
+    margin: 0 auto;
+    padding-top: 100px;
+  }
 .title-news{
   margin: 0;
-  margin-top: 90px;
-  margin-bottom: 15px;
-  padding: 15px;
+   margin-bottom: 100px;
   text-align: center;
   color:#555252;
   font-size: 48px;
@@ -168,7 +174,7 @@ margin-top: 90px;
   float: left;
   width: 350px;
   padding: 0px;
-  margin-top: 100px;
+
   text-align: justify;
   list-style-type: none;
 }
