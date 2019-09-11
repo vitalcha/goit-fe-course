@@ -15,7 +15,8 @@ img{
 }
 .page-header{
   width: 1110px;
-  padding: 28px 28px;
+  padding-top:28px;
+  padding-bottom:28px;
   }
 .container{
   width: 1110px;
@@ -57,14 +58,18 @@ body{
 	text-transform: uppercase;
   font-size: 14px;
   line-height: 11px; 
-  padding-right: 40px;
- }
- 
- .site-navigation-item li{
+   }
+  .site-navigation-item {
   float: right;
   font-size: 14px;
   line-height: 11px; 
+  margin-right: 40px;
    }
+
+/*.site-navigation-item:nth-child(-n + 5){
+margin-right: 40px;
+}*/
+
 .site-navigation a:hover,
 .site-navigation a:focus{
 color: #1abc9c;
@@ -117,11 +122,11 @@ color: #1abc9c;
 	margin-bottom: 30px;
   }
   .product-price{
-   margin: 0 auto;
-    float: right;
-    color:#ffffff;
+  margin: 0 auto;
+  float: right;
+  color:#ffffff;
   font-size: 18px;
-  line-height:32px;
+  line-height:40px;
   width: 55px;
   height: 40px;
   background-color: #8c8c8c;
@@ -133,14 +138,13 @@ color: #1abc9c;
     float: left;
     width: 200px;
   height: 40px;
-    color:#ffffff;
+  color:#ffffff;
   font-size: 18px;
   line-height: 40px;
   padding-left: 14px;
   background-color: #323232;
   text-transform: uppercase;
-  
-  }
+ }
 
   .product-list:hover .product-description {
   background-color: #1abc9c;
