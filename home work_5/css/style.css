@@ -157,7 +157,7 @@ font-weight: 900;*/
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
-  background-image: url(/image/button1.png);
+  background-image: url(../image/button1.png);
   background-repeat: no-repeat;
   background-position: center;
 
@@ -172,7 +172,7 @@ font-weight: 900;*/
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
-  background-image: url(/image/button2.png);
+  background-image: url(../image/button2.png);
   background-repeat: no-repeat;
   background-position: center;
 }
