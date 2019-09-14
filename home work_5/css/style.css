@@ -15,7 +15,8 @@ img {
 }
 .page-header {
   width: 1110px;
-  padding: 28px;
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 .container {
   width: 1110px;
@@ -138,7 +139,7 @@ font-weight: 900;*/
   line-height: 54px;
   color: #ffffff;
   font-family: "Roboto";
-  font-weight: 900;
+  font-weight: 400;
   position: absolute;
   left: 55%;
   top: 65%;
@@ -180,6 +181,7 @@ font-weight: 900;*/
   margin: 0 auto;
   background-color: #e9f0fd;
   padding-top: 100px;
+  padding-bottom: 100px;
      }
 /*.overlay .product-list {
   width: 256px;
@@ -199,6 +201,7 @@ font-weight: 900;*/
   color: #515151;
   font-size: 48px;
   line-height: 32px;
+  
 }
 .title-products::after {
   margin: 0 auto;
@@ -216,7 +219,7 @@ font-weight: 900;*/
   width: 255px;
   padding: 0px;
   position: relative;
-  padding-bottom: 100px;
+  
   
 }
 
