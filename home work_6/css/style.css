@@ -42,7 +42,7 @@ body {
   display: flex;
   width: 490px;
   font-size: 14px;
-  line-height: 14px;
+
   justify-content: space-between; 
   
   
@@ -51,8 +51,7 @@ body {
 .site__navigation__item {
   display: block;
   font-size: 14px;
-  line-height: 11px;
-  position: relative;
+    position: relative;
 
  }
 .site__navigation a {
@@ -95,7 +94,9 @@ bottom: -10px;
   }
   
 /*section Our service*/
-
+.our.service {
+  padding-bottom: 90px;
+}
 .service__title {
   margin: 0 auto;  
   font-size: 24px;
@@ -124,7 +125,7 @@ bottom: -10px;
   background-color: rgb(243, 129, 129);
    width: 60px;
   height: 3px;
- 
+ margin-bottom: 60px;
 }
 .tape__service {
   /* display: flex;
@@ -141,8 +142,7 @@ bottom: -10px;
    list-style: none;
    margin: 0;
    padding: 0;
-   margin-top: 60px;
-   margin-bottom: 90px;
+    
 
   }
   .service__icon {
@@ -191,6 +191,7 @@ bottom: -10px;
 .service__name {
     font-size: 14px;
     font-family: "Montserrat";
+    font-weight: 300;
     color: rgb(51, 51, 51);
     text-transform: uppercase;
     line-height: 1.2;
@@ -206,7 +207,9 @@ bottom: -10px;
     text-align: left;
       
 }
-
+.Our__team {
+  padding-bottom: 80px;
+}
 .Our__team__title {
   margin: 0 auto;  
   font-size: 24px;
@@ -225,23 +228,26 @@ bottom: -10px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 40px;
 }
 .about__team {
       font-size: 15px;
     font-family: "Roboto";
+    
     color: rgb(153, 153, 153);
      text-align: center;
     height: 60px;
-    margin-top: 40px;
+    margin-bottom: 40px;
+  
   }
 .Our__team__1::after{
   margin: 0 auto;
-  margin-top: 40px;
   display: block;
   content: "";
   background-color: rgb(243, 129, 129);
    width: 60px;
   height: 3px;
+margin-top: 40px; 
 }
  
 .team__list {
@@ -251,7 +257,7 @@ bottom: -10px;
   align-content: space-around;
   text-align: left;
  list-style: none;
- margin-top: 100px;
+ 
 }
 
 
@@ -353,8 +359,8 @@ bottom: -10px;
       display: flex;
       justify-content: space-between;
       width: 1200PX;
-      margin-top: 70px;
-      margin-bottom: 20PX;
+      
+      padding-bottom: 20PX;
    }
    .main_footer {
       min-width: 100%;;
