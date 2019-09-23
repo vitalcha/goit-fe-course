@@ -1,0 +1,448 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+.page__header {
+ 
+  height: 1000px;
+  position: relative;
+  background-image: linear-gradient(to bottom,rgba(239, 138, 138, .8), rgba(242, 217, 136, .8)), url(../img/banner/banner-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 50px;
+ }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.page__nav {
+  display: flex;
+   align-items: center;
+  justify-content: space-between;
+  min-height: 100px;
+  margin-bottom: 120px;
+}
+
+.site__navigation {
+  display: flex;
+  width: 490px;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.site__navigation__item {
+  display: block;
+  font-size: 14px;
+  position: relative;
+
+ }
+.site__navigation a {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 11px;
+ 
+}
+
+.site__navigation a::after {
+  margin: 0;
+  background-color: rgb(252, 227, 138);
+  content:""; 
+  width: 100%;
+  height: 3px;
+  display: none;
+  position: absolute;
+  bottom: -10px;
+
+  }
+
+.site__navigation a:hover,
+.site__navigation a:focus {
+  color: rgb(252, 227, 138)}
+
+  .site__navigation a:hover::after{
+  display: block}
+.site__navigation__item svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+}
+
+ .site__navigation__item svg:hover {
+  fill: #fce38a
+} 
+
+
+.header__title {
+    font-size: 72px;
+    font-family: "Kaushan Script";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 70px;
+   
+}
+.header__title_1 {
+     margin: 0 auto;
+    font-size: 150px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.933;
+    text-align: center;
+    width: 820px;
+    margin-bottom: 100px;
+ }
+
+ .Learn__more {
+  margin: 0 auto; 
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background: none;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  width: 164px;
+  height: 44px;
+  display: block;
+ }
+
+ /*section Our service*/
+.our__service {
+  padding-bottom: 90px;
+}
+.service__title {
+  margin: 0 auto;  
+  font-size: 24px;
+  font-family: "Kaushan Script";
+  font-weight: 300;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  margin-bottom: 20px;
+      
+}
+.service__title_1 {
+  margin: 0 auto;   
+  font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+.service__title_1::after{
+  margin: 0 auto;
+  margin-top: 40px;
+  display: block;
+  content: "";
+  background-color: rgb(243, 129, 129);
+   width: 60px;
+  height: 3px;
+ margin-bottom: 60px;
+}
+.tape__service {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  text-align: left;
+ list-style: none;
+ margin-top: 60px;
+ margin-bottom: 90px; */
+ display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+    
+
+  }
+  .service__icon {
+    /* flex-basis: 350px;
+    height: 120px;
+    position: relative;
+    padding-left: 20px; */
+    flex: 0 0 380px;
+   margin-bottom: 98px;
+   padding-left: 82px;
+   background-repeat: no-repeat;
+   background-position: 20px 0;
+  }
+
+  .service__icon:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+ }
+.icon__clock{
+  background-image: url(../img/icons/services/icon-alarm.svg);
+  
+  }
+
+.icon__graph {
+  background-image: url(../img/icons/services/icon-graph.svg);
+  
+}
+
+.icon__comp {
+  background-image: url(../img/icons/services/icon-computer.svg);
+  
+}
+.icon__book {
+  background-image: url(../img/icons/services/icon-book.svg);
+  
+}
+.icon__house {
+  background-image: url(../img/icons/services/icon-home.svg);
+   
+}
+
+.icon__frame {
+  background-image: url(../img/icons/services/icon-image.svg);
+ 
+}
+
+.service__name {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    margin-bottom: 18px;
+  
+}
+.service__disruption {
+      font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: left;
+      
+}
+.Our__team {
+  padding-bottom: 80px;
+}
+.Our__team__title {
+  margin: 0 auto;  
+  font-size: 24px;
+  font-family: "Kaushan Script";
+  font-weight: 300;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Our__team__1 {
+  margin: 0 auto;   
+  font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about__team {
+      font-size: 15px;
+    font-family: "Roboto";
+    
+    color: rgb(153, 153, 153);
+     text-align: center;
+    height: 60px;
+    margin-bottom: 40px;
+  
+  }
+.Our__team__1::after{
+  margin: 0 auto;
+  display: block;
+  content: "";
+  background-color: rgb(243, 129, 129);
+   width: 60px;
+  height: 3px;
+margin-top: 40px; 
+}
+ 
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  text-align: left;
+ list-style: none;
+ 
+}
+
+
+
+.team__list__item{
+  position: relative;
+  
+}
+
+.team__list__item:hover .overlay {
+  opacity: 1;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%; 
+  height: 470px;
+  top:0px;
+  left: 0px;
+  background: linear-gradient(to bottom,rgba(239, 138, 138, .8), rgba(242, 217, 136, .8));
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transform: translate(-10px, -10px);
+  box-shadow: 10px 10px 0 0 #95e1d3;
+  opacity: 0;
+}
+.overlay{
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  opacity: 0;
+}
+.button{
+  width:224px;
+  height:56px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlay__button:hover {
+  background-color: #f38181;
+  transition-duration: 2s;
+}
+.overlay__button{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fce38a;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  margin-right: 1px;
+  width: 56px;
+  height: 56px;
+  border: none;
+
+}
+.facebook{
+  background-image: url(../img/icons/services/icon-facebook.svg);
+  
+}
+.twitter{
+  background-image: url(../img/icons/services/icon-twitter.svg);
+ 
+}
+.pinterest{
+  background-image: url(../img/icons/services/icon-pinterest.svg);
+  
+}
+.instagram{
+  background-image: url(../img/icons/services/icon-instagram.svg);
+  
+}
+.team__list__name {
+      font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+   
+  }
+  .team__list__position {
+          font-size: 15px;
+      font-family: "Roboto";
+      color: rgb(153, 153, 153);
+      font-style: italic;
+      line-height: 1.6;
+      text-align: center;
+          }
+
+
+
+    /*footer*/
+    .author {
+      display: flex;
+      justify-content: space-between;
+      width: 1200PX;
+      
+      padding-bottom: 20PX;
+   }
+   .main_footer {
+      min-width: 100%;;
+      border-top: 1px solid #e5e5e5;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+   }
+   .laqiq {
+      color:black;
+      text-decoration: none;
+      transition:0.4s linear;
+   }
+   .laqiq:hover {
+      color:#f6a1a1;
+   }
+   .mail {
+      display: flex;
+   }
+   .author input::placeholder {
+      color: #d9d9d9;
+      font-style: italic;
+   }
+   .subscribe {
+      width: 150px;
+      height: 40px;
+      background-color: #95e1d3;
+      text-transform: uppercase;
+      color:white;
+      border: none;
+      cursor: pointer;
+   }
+   @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+     .page__header { background-image: url(../img/banner/banner@2x-min.jpg) no-repeat;
+    }
+   
+    
+   }
