@@ -166,7 +166,7 @@ img {
     line-height: 1.2;
     text-align: center;
     margin-top: 20px;
-    
+        
    }
 
    .site__navigation__item a {
@@ -374,6 +374,8 @@ position: relative;  */
       flex-direction: row-reverse;
       justify-content: space-between;
       align-items: center;
+      padding-left: 46px;
+      padding-right: 46px;
     }
     .page__header {
       
@@ -387,6 +389,7 @@ position: relative;  */
      
       padding-top: 20px;
     }
+    
     .login {
     justify-content: flex-end;
     margin-bottom: 0;
@@ -396,12 +399,18 @@ position: relative;  */
       display: flex;
     
     }
+    .site__navigation__item {
+      margin-right: 18px;
+    }
      }
   
   @media (min-width: 940px) {
     .container {
       width: 940px;
     } 
+    .site__navigation__item {
+      padding: 15px;
+    }
     .looking__partners {
 
       width: 220px;
