@@ -126,8 +126,7 @@ img {
   background-image: linear-gradient(to bottom,rgba(239, 138, 138, .8), rgba(242, 217, 136, .8)), url(../img/banner/banner-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 50px;
- }
+}
 
 .container {
   width: 1200px;
@@ -248,6 +247,7 @@ body {
  /*section Our service*/
 .our__service {
   padding-bottom: 90px;
+  padding-top: 50px;
 }
 .service__title {
   margin: 0 auto;  
