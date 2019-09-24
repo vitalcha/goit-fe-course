@@ -552,5 +552,6 @@ margin-top: 40px;
       background: linear-gradient(to bottom,rgba(239, 138, 138, .8), rgba(242, 217, 136, .8)),
       url(../img/banner/banner@2x-min.jpg) no-repeat;
       background-position: center;
+      background-size: cover;
     }
  }
